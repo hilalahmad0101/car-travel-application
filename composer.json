@@ -1,0 +1,23 @@
+{
+	"description": "Car Travels",
+	"name": "CarTravels",
+	"type": "project",
+	"homepage": "http://cartravels.com/",
+	"license": "MIT",
+	"support": {
+		"forum": "http://forum.cartravels.com/",
+		"wiki": "https://github.com/bcit-ci/cartravels/wiki",
+		"slack": "https://cartravels.slack.com",
+		"source": "https://github.com/bcit-ci/cartravels"
+	},
+	"require": {
+		"php": ">=5.3.7"
+	},
+	"suggest": {
+		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
+	},
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*",
+		"phpunit/phpunit": "4.* || 5.*"
+	}
+}

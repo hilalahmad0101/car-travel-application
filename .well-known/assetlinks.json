@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.cartravels",
+               "sha256_cert_fingerprints": ["21:63:2B:31:9A:CF:F5:04:08:65:B6:C2:19:EE:01:82:3E:AF:0D:66:7C:7A:9A:00:6A:EF:C1:E7:2D:60:7B:F2"] }
+}]

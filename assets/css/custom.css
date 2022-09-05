@@ -1,0 +1,487 @@
+    .pull-center
+    {
+        display: inline;
+        text-align: center;
+    }
+
+    .CityName
+    {
+        font-size: 15px;
+        width: auto;
+        float: right;
+    }
+
+    #mySidenav a {
+      position: absolute;
+      right: 0px;
+      transition: 0.3s;
+      padding: 7px;
+      /*width: 180px;*/
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      border-radius: 5px 0 0 5px;
+      z-index:1000;
+      position: fixed;
+      z-index: 100000;
+    }
+
+    #mySidenav a:hover {
+      right: 0;
+    }
+
+    #searchCityData
+    {
+      position: absolute;
+      display: block;
+      padding: 4px;
+      background: #fff;
+      max-height: 150px;
+      overflow: auto;
+      width: 350px;
+      z-index: 1051;
+      cursor: pointer;
+      font-size: 12px;
+      padding-left: 15px;
+    }
+
+
+
+
+/* custom css for website and user login dashboard css*/
+
+    .form-signin {
+      max-width: 330px;
+      padding: 15px;
+      margin: 0 auto;
+    }
+    .form-signin .form-signin-heading,
+    .form-signin .checkbox {
+      margin-bottom: 10px;
+    }
+    .form-signin .checkbox {
+      font-weight: normal;
+    }
+    .form-signin .form-control {
+      position: relative;
+      font-size: 16px;
+      height: auto;
+      padding: 10px;
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;
+    }
+    .form-signin .form-control:focus {
+      z-index: 2;
+    }
+    .form-signin input[type="email"] {
+      margin-bottom: -1px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    .form-signin input[type="password"] {
+      margin-bottom: 10px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+
+
+    .panelmargin5{
+        padding:5px;
+    }
+
+
+#storeIcon img{
+  height: 40px;
+  padding-left: 10px;
+}
+
+#storeIcon input, #headerCitySelectedGo{
+  margin-left: 10px;
+  margin-bottom: 0px;
+  height: 40px;
+  padding: 0 10px;
+}
+
+
+
+@media (min-width: 767px) {
+  #loginButton{
+    color: #fff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  #loginButton:hover, #loginButton:active, #loginButton:focus{
+    color: #fff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border:1px solid red;
+    background: #D80D0D;
+  }
+}
+
+
+
+.ui-widget-content{
+  z-index: 9999;
+  overflow-x: unset;
+  overflow-y: auto;
+  max-height: 350px;
+  width: auto;
+}
+
+.ui-menu-item {
+  overflow: hidden;
+  width: 100%;
+}
+
+#citySelectedValue{
+  background-color: #000;
+  color: #fff;
+  border-color: #AB1818;
+}
+
+
+.text-gray
+{
+  color:#868686;
+}
+
+.text-white
+{
+  color:#fff;
+}
+
+.text-black
+{
+  color:#000;
+}
+
+.close {
+    float: right;
+     font-size: 21px; 
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+     opacity: 1; 
+    filter: alpha(opacity=20);
+}
+
+#loginModal #storeIconLogin img{
+  width: 100%;
+}
+
+#loginModal .modal-content{
+  width: 340px;
+}
+
+
+#loginModal s.modal.fade:not(.in).right .modal-dialog {
+    -webkit-transform: translate3d(25%, 0, 0);
+    transform: translate3d(25%, 0, 0);
+}
+
+
+
+
+/*enquiry form*/
+
+
+
+#enauiryBookingModal .modal-content{
+  width: 500px;
+}
+
+
+#enquiryInputs {
+  background-color: #fff;
+  color: #000;
+  margin: 0 30px 30px 30px;
+  /*margin-top: 0px;*/
+  border-radius: 10px;
+}
+
+#enquiryInsidePanel
+{
+  display: inline-block;
+  margin: 25px;
+  width: 89%;
+}
+
+
+#enauiryBookingModal .modal-header {
+    padding: 15px;
+    border-bottom: none;
+    min-height: 16.428571429px;
+}
+
+#enquiryInputs input
+{
+  background-color: #dfdfdf;
+  color: #000;
+}
+
+
+#enauiryBookingModal .nav-justified {
+    width: 100%;
+    margin-top: -45px;
+}
+
+
+
+#enauiryBookingModal #navJustified {
+    width: 100%;
+    margin-top: 0px;
+}
+
+#enauiryBookingModal .nav-tabs  > li > a {
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #AB1818;
+    padding: 5px 0;
+}
+
+#enauiryBookingModal .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #fff;
+    background-color: #AB1818;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+
+
+
+
+#enauiryBookingModal .nav-pills  > li > a {
+    color: #000;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1px solid #AB1818;
+    padding: 5px 0;
+}
+
+#enauiryBookingModal .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #fff;
+    background-color: #AB1818;
+    border-radius: 25px;
+    border: 1px solid #fff;
+}
+
+
+#travelInfo
+{
+  background-color: #f6f6f6;
+  margin: 15px;
+  border-radius: 10pX;
+  color: #000;
+}
+
+#travelInfo p
+{
+  margin: 0 0 10px;
+}
+
+
+#travelinfoPanel
+{
+  display: inline-block;
+  margin: 15px;
+  width: 93%;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px  #c2c2c2;
+}
+
+
+.enquiryButton
+{
+  display: inline-block;
+  margin: 15px;
+  width: 93%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+*******************************/
+  .modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    /*height: 100%;*/
+    -webkit-transform: translate3d(0%, 0, 0);
+        -ms-transform: translate3d(0%, 0, 0);
+         -o-transform: translate3d(0%, 0, 0);
+            transform: translate3d(0%, 0, 0);
+  }
+
+  .modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .modal.right .modal-body {
+    padding: 15px 15px 80px;
+  }
+
+/*Right*/
+  .modal.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+       -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+         -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+            transition: opacity 0.3s linear, right 0.3s ease-out;
+  }
+  
+  .modal.right.fade.in .modal-dialog {
+    right: 13%;
+    top: 50px;
+  }
+
+
+
+#cityModel {
+    /*margin: 20vh auto 0px auto;*/
+    padding-top: 15%;
+}
+
+
+
+@media (max-width: 766px) {
+  #loginButton{
+    color: #fff;
+  }
+
+  #loginButton:hover, #loginButton:active, #loginButton:focus{
+    color: #fff;
+    background: #D80D0D;
+  }
+  #storeIcon img, #storeIcon input, #headerCitySelectedGo{
+    display: none;
+  }
+  .modal.right.fade.in .modal-dialog {
+    right: 15px;
+    left: 15px;
+    top: 15px;
+  }
+  #leftKeywordsList{
+    display: none;
+  }
+}
+
+
+
+
+.btnDanger, .btnDanger:hover, .btnDanger:focus, .btnDanger:active{
+  background-color: #AB1818;
+  color:#fff;
+}
+
+.mt-10{
+  margin-top: 10px;
+}
+.mt-15{
+  margin-top: 15px;
+}
+.mt-20{
+  margin-top: 20px;
+}
+.mt-60{
+  margin-top: 60px;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
+.mb-15{
+  margin-bottom: 15px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+.mb-40{
+  margin-bottom: 40px;
+}
+.mb-50{
+  margin-bottom: 50px;
+}
+.mb-60{
+  margin-bottom: 60px;
+}
+
+#categoryList
+{
+  margin-bottom: 10px;
+}
+
+#categoryList:hover
+{
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+
+
+
+
+
+    /* Rate Star*/        
+    .result-container{
+        width: 100px; height: 22px;
+        background-color: #ccc;
+        vertical-align:middle;
+        display:inline-block;
+        position: relative;
+        top: -4px;
+    }
+    .rate-stars{
+        width: 100px; height: 22px;
+        background: url('../../assets/img/stars.png') no-repeat;
+        background-size: cover;
+        position: absolute;
+    }
+    .rate-bg{
+        height: 22px;
+        background-color: #ff8510;
+        position: absolute;
+    }
+    /* Rate Star Ends*/
+    
+    /* Display rate count */    
+    .reviewCount, .reviewScore {font-size: 14px; color: #666666; margin-left: 5px;}
+    .reviewScore {font-weight: 600;}
+    /* Display rate count Ends*/    
+
+
+
+#listDanger
+{
+  background-color: #AB1818;
+  color:#fff;
+}
